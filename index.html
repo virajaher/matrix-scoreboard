@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Iso&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="backgrnd"> 
+            <div class="container">
+                <h1>Game Score</h1>
+                <div class="twoCols">
+                    <div> <!--Coloum1-->
+                        <h3>HOME</h3>
+                        <div class="score-bg">
+                            <p id="home-count-el">0</p>
+                        </div>
+                        <div>
+                            <button id="add-point" onclick="incrementOne()">+1</button>
+                            <button id="add-point" onclick="incrementTwo()">+2</button>
+                            <button id="add-point" onclick="incrementThree()">+3</button>
+                        </div>
+                    </div>
+
+                    <div> <!--Coloum2-->
+                        <h3>GUEST</h3>
+                        <div class="score-bg">
+                            <p id="guest-count-el">0</p>
+                        </div>
+                        <div>
+                            <button id="add-point" onclick="incOne()">+1</button>
+                            <button id="add-point" onclick="incTwo()">+2</button>
+                            <button id="add-point" onclick="incThree()">+3</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <button id="restart-btn" onclick="restart()">Restart</button>
+                </div>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
