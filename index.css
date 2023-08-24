@@ -43,28 +43,29 @@ body {
 }
 
 
+h3, h4, #restart-btn, p, #add-point {
+    font-family: 'VT323', monospace;
+}
+
 h1{
     font-family: 'Press Start 2P', cursive;
     color: #6EE7B7;
-    font-size: 32px;
+    font-size: 48px;
     line-height: 33.6px;
 }
 
 h3 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 28px;
+    font-size: 34px;
     line-height: 33.6px;
 }
 
 h4 {
-    font-family: 'Press Start 2P', cursive;
     font-size: 3em;
 }
 
 
 
 #restart-btn { 
-    font-family: 'Press Start 2P', cursive;
     font-size: 11px;
     padding: 12px 12px;
     background-color: #6EE7B7;
@@ -100,8 +101,6 @@ h4 {
 
 
 p {
-    font-family: 'Press Start 2P';
-    font-style: normal; 
     font-weight: 400;
     font-size: 50px;
     line-height: 125px;
@@ -109,8 +108,6 @@ p {
 }
 
 #add-point {
-    font-family: 'Press Start 2P';
-    font-style: normal;
     font-weight: 400;
     font-size: 11px;
     padding: 11px;
